@@ -1,0 +1,307 @@
+.header {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(80, 79, 79);
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    gap: 50px;
+    justify-content: right;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    
+}
+.content {
+    width: 100%;
+}
+.content-heading {
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-align: center;
+}
+.content-title {
+    width: 100%;
+    padding-left: 44%;
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(254, 94, 14, 1) 2%,
+      rgba(222, 0, 255, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn {
+    width: 150px;
+    height: 30px;
+    background-image: -webkit-linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(254, 94, 14, 1) 2%,
+      rgba(222, 0, 255, 1) 100%
+    );
+    border-radius: 30%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.right-btn{
+      width: 30px;
+      color: black;
+      background-color: white;
+      border-radius: 50%;
+}
+.cover-bottom{
+      width: 100%;
+      height: 20px;
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      color: white;
+}
+.lefty {
+    padding-left: 50px;
+}
+.righty, .fb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;    
+}
+
+.careers {    
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    background-color: gray;
+}
+.lefts{
+    width: 50%;
+    height: 50%;
+}
+.headi {
+    padding-left: 100px;
+    width: 50%;;
+}
+.line{
+    padding-left: 100px;
+    width: 50%;
+    color: red;
+}
+.left, .right {
+    display: flex;
+    flex-wrap: wrap;
+}
+p {
+    padding-left: 100px;
+    width: 50%;;
+}
+.images {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.imag {
+    width: 333px;
+}
+.head2 {
+    text-align: center;
+}
+.bottom {
+    padding-top: 50px;
+    background-color: gray;
+    padding-bottom: 20px;
+}
+.head2 {
+    color: white;
+}
+.ogs {
+    background-color: gray;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 40px;
+}
+.ogsrow {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 10px;
+}
+.src {
+    border-radius: 50%;
+    border: gray solid;
+    height: 100px;
+}
+.One {
+    text-align: center;
+    width: 300px;
+    color: rgb(0, 0, 0);
+}
+.end {
+    background-color: black;
+}
+.last {
+    padding-top: 10px;
+    text-align: center;
+    color: gray;
+}
+.buttons1 {
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.b1 {
+    background-color: darkslategray;
+    color: black;
+    border: gray solid;
+}
+.b2 {
+    background-color: darkslategray;
+    border: gray solid;
+}
+.b3 {
+    background-color: rgb(188,96,83);
+    color: white;
+    border: gray solid;
+}
+.b4 {
+    color: pink;
+    background-color: darkslategray;
+}
+hr {
+    color: gray;
+}
+.line {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.ios {
+    color: white;
+}
+.apply {
+    color: black;
+    background-color: darkgray;
+    width: 200px;
+    height: 50px;
+}
+.roww {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 650px;
+}
+.roww2 {
+    width: 100%;
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.con1 {
+    width: 250px;
+}
+.shop {
+    background: none;
+}
+.soo {
+    color: white;
+}
+.lo {
+    width: 100%;
+    color: white;
+    padding-left: 0%;
+    border: 0%;
+    margin: 0%;
+}
+.con2 {
+    width: 250px;
+}
+.too {
+    color: white;
+}
+.ro {
+    color: white;
+    width: 100%;
+    padding-left: 0%;
+    border: 0%;
+    margin: 0%;
+}
+.con3 {
+    width: 250px;
+}
+.woo {
+    color: white;
+}
+.wo {
+    color: white;
+    width: 100%;
+    padding-left: 0%;
+    border: 0%;
+    margin: 0%;
+}
+.lastly {
+    padding-top: 50px;
+    padding-left: 100px;
+    background-color: grey;
+}
+.roys {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+.last1 {
+    width: 250px;
+}
+.kum {
+    padding-left: 0%;
+    width: 100%;
+}
+.op {
+    display: inline-block;
+    color: white;
+}
+.phone {
+    height: 200px;
+}
+h3 {
+    color: white;
+}
+.soed {
+    padding-top: 50px;
+    height: 100px;
+    text-align: center;
+    background-color: black
+}
+.CREATIVE {
+    color: gray;
+}
