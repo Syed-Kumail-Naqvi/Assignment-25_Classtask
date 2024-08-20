@@ -43,7 +43,7 @@ a:hover {
       rgba(254, 94, 14, 1) 2%,
       rgba(222, 0, 255, 1) 100%
     );
-    -webkit-background-clip: text;
+    --webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .btn {
@@ -304,4 +304,10 @@ h3 {
 }
 .CREATIVE {
     color: gray;
+}
+@media (min-width: 360px) {
+    .line {
+        gap: 300px;
+    }
+    
 }
